@@ -1,3 +1,7 @@
+#Chat App 
+##Made with React and Firebase
+In this project we are using React for our frontend and for storing the data we are using firebase firestore
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
