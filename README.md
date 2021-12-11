@@ -4,8 +4,9 @@ In this project we are using React for our frontend and for storing the data we 
 It's a  chat application that everybody can use to communicate using text messages. It's like a discord server or slack room with a single channel. To enter the channel and interact with people the user must login using his google account. Once logged in the user can read previous messages and can start chatting by sending messages. All messages are stored in Firestore Database and are synced in real time with the  application .It uses firebase sdk along with firestore for the database and firebase auth for user authentication
 
 ## Project screenshot
-<img alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.3%" height="32.2%">                                             <img alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
-
+<p align="center" padding-right="50px">
+<img alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.3%" height="32.2%">                                           <img alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
+</p>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
