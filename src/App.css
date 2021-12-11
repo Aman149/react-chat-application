@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+body {
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/*-------------------------------
+               HEADER 
+---------------------------------*/
+.App header {
+  z-index: 9;
+  background-color: #181717;
+  height: 7vh;
+  min-height: 55px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 700px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App header img {
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+}
+
+.App header h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.App header button {
+  font-family: "Roboto";
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background: #282c34;
+  padding: 8px 18px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.App header button:hover {
+  background-color: #61DBFB;
+  color: #181717;
+  transition: 0.2s;
+}
+
+.rotate {
+  animation: rotation 15s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/*-------------------------------
+        Main Display area 
+---------------------------------*/
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  background-color: #282c34;
+}
+
+main {
+  padding: 7vh 3%;
+  height: auto;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: #61DBFB;
+}
+
+form {
+  height: 6vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  font-size: 15px;
+  background-color: rgb(24, 23, 23);
+}
+
+form button {
+  border: none;
+  width: 15%;
+  background-color: #61dcfbec;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  background: rgb(49, 49, 49);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}
+
+ui, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 400px;
+  margin-bottom: 15px;
+  line-height: 25px;
+  padding: 8px 15px;
+  position: relative;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  background: #61DBFB;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+}
+
+#send-btn{
+  background: #61DBFB;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  margin: 2px 5px;
+}
+
+.sign-in {
+  color: #000;
+  font-size: 30px;
+  background: #fff;
+  max-width: 4000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 60%;
+  margin-bottom: 49vh;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+.google-icon {
+  padding-right: 10px;
+}
