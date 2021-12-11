@@ -5,9 +5,11 @@ It's a  chat application that everybody can use to communicate using text messag
 
 ## Project screenshot
 <p align="center">
-<img style="margin-right: 50px" alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.3%" height="32.2%">
+<img style="padding-right: 50px" alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.3%" height="32.2%">
 <img alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
 </p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
