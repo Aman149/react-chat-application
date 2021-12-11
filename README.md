@@ -9,6 +9,8 @@ It's a  chat application that everybody can use to communicate using text messag
 <img style="margin:0.5rem" alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
 </p>
 
+<br/>
+<br/>
 
 # Getting Started with Create React App
 
