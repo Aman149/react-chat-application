@@ -1,5 +1,5 @@
 # Chat App 
-## [Check it out](https://reactchatapp71.netlify.app/). This project is deployed on netlify
+## [Check it out. ](https://reactchatapp71.netlify.app/) This project is deployed on netlify
 In this project we are using React for our frontend and for storing the data we are using firebase firestore.
 It's a  chat application that everybody can use to communicate using text messages. It's like a discord server or slack room with a single channel. To enter the channel and interact with people the user must login using his google account. Once logged in the user can read previous messages and can start chatting by sending messages. All messages are stored in Firestore Database and are synced in real time with the  application .It uses firebase sdk along with firestore for the database and firebase auth for user authentication
 
