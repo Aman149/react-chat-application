@@ -60,7 +60,7 @@ function SighIn() {
 
   return(
     <>
-    <button className="sign-in" onClick={signInWithGoogle}><img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>Sign in with google</button>
+    <button className="sign-in" onClick={signInWithGoogle}><img class="google-icon" alt="google logo" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>Sign in with google</button>
     </>
   )
 }
