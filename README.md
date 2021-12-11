@@ -5,8 +5,8 @@ It's a  chat application that everybody can use to communicate using text messag
 
 ## Project screenshot
 <p align="center">
-<img style="padding-right: 50px" alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.3%" height="32.2%">
-<img alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
+<img style="margin:0.5rem" alt="login page" src="https://github.com/Aman149/react-chat-application/blob/main/public/login.jpg" width="32.2%" height="32.2%">
+<img style="margin:0.5rem" alt="chat page" src="https://github.com/Aman149/react-chat-application/blob/main/public/chat.jpg" width="30%" height="30%">
 </p>
 
 
